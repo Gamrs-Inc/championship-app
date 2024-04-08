@@ -1,7 +1,7 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.scss'
-import SampleView from '@/features/sample/views/sampleView'
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.scss";
+import SampleView from "@/features/sample/views/sampleView";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <h1>Vite + React</h1>
       <SampleView />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

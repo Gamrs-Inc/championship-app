@@ -1,0 +1,59 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": ["./src"],
+  "workbench.iconTheme": "vscode-icons",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.stylelintIntegration": true,
+  "tabnine.experimentalAutoImports": true,
+  "ungit.showButton": true,
+  "ungit.showInActiveColumn": true,
+  "git.autofetch": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.fontFamily": "'MesloLGM NF',Consolas, 'Courier New'",
+  "editor.fontSize": 12,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "yaml.schemas": {
+    "file:///c%3A/Users/lucas/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "9f37349c-4557-4193-a9ad-9340e82049db",
+      "enabled": true,
+      "name": "My proprli Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "cfa68277-fe3b-480e-bb0a-42895d5cecce",
+      "monitor": true
+    }
+  ],
+  "editor.formatOnSave": true,
+  "remote.SSH.remotePlatform": {
+    "ec2-18-217-98-20.us-east-2.compute.amazonaws.com": "linux"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+}

@@ -1,7 +1,7 @@
 interface SampleStoreState {
-    count: number,
-    actions: {
-        increment: () => void,
-        decrement: () => void,
-    }
+  count: number;
+  actions: {
+    increment: () => void;
+    decrement: () => void;
+  };
 }

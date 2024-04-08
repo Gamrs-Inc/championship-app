@@ -5,12 +5,12 @@ This React 18 base project uses SWC for compilation, and has Zustand, Jest and S
 - Our imports have a default `@/*` path already configured, if you are using VSCode you can turn this setting by changing your preferences ` Ctrl + Shift + P -> Preferences: Open (User/Workspace) Settings` and setting the following code:
 
 ```json
-  { 
-    // [...]
-    "javascript.preferences.importModuleSpecifier": "non-relative",
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    // [...]
-  }
+{
+  // [...]
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+  // [...]
+}
 ```
 
 We also use Feature-based folder structure, there is a `src/features/sample` that displays this in full effect, here is an article for reference on how to use it:
@@ -18,6 +18,7 @@ We also use Feature-based folder structure, there is a `src/features/sample` tha
 https://dev.to/sathishskdev/part-2-folder-structure-building-a-solid-foundation-omh
 
 # Generic Project Shanennigans
+
 ### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -37,12 +38,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
